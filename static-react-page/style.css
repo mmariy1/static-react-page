@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    border: 1px solid black;
+    width: 550px;
+    margin: 50px auto;
+    
+}
+
+.card {
+    display: flex;
+    height: 231px;
+    width: 470px;
+    border-bottom: 1px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+.location-image {
+    width: 125px;
+    height: 75%;
+    border-radius: 5px;
+}
+
+.all-info {
+    margin-left: 10px;
+    max-height: 168px;
+    
+}
+
+.whole-page {
+    width: 550px;
+    height: 704px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto
+}
+
+p {
+    font-size: 0.64rem;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 1.563rem;
+    font-weight: 700;
+    margin: 0
+}
+
+.description {
+    line-height: 0.96rem;
+}
+
+.date {
+    line-height: 0.774rem;
+    margin: 17px 0 9px 0;
+}
+
+.country-name {
+    margin: 19px 0px 7px 0;
+    letter-spacing: 5px;
+}
+
+.maps {
+    margin-left: 12px;
+    letter-spacing: 0;
+}
+
+.nav {
+    width: 550px;
+    background-color: #F55A5A;
+    line-height: 1.094rem;
+    padding: 16px 0 16px 0px;
+    text-align: center;
+    margin: auto;
+    font-weight: 500;
+    color: white;
+    font-size: 0.904rem;
+}
